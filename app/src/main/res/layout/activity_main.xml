@@ -188,7 +188,7 @@
                 android:background="@color/orange"
                 android:text="="
                 android:textSize="18sp"
-                android:onClick="btnNumberEvent"
+                android:onClick="btnEquals"
                 android:layout_width="30pt"
                 android:layout_height="30pt" android:id="@+id/buEquals" android:layout_weight="1"/>
     </LinearLayout>
