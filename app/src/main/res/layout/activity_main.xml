@@ -5,18 +5,20 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" android:orientation="vertical" android:padding="10pt">
+        tools:context=".MainActivity" android:orientation="vertical">
     <EditText
+            android:layout_weight="1"
             android:background="@color/gray"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:textSize="40sp"
+            android:textSize="60sp"
             android:textColor="@color/white"
             android:text="0"
             android:ems="10"
             android:id="@+id/editText" android:gravity="end" android:paddingTop="10pt"/>
     <TableLayout
+            android:layout_weight="0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -25,18 +27,21 @@
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="AC"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="+/-"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button2"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="%"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button3"/>
             <Button
@@ -44,6 +49,7 @@
                     android:textColor="@color/white"
                     android:background="@color/orange"
                     android:text="/"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button4"/>
         </TableRow>
@@ -52,18 +58,21 @@
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="7"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button5"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="8"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button6"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="9"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button7"/>
             <Button
@@ -71,6 +80,7 @@
                     android:textColor="@color/white"
                     android:background="@color/orange"
                     android:text="*"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button8"/>
         </TableRow>
@@ -79,18 +89,21 @@
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="4"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button9"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="5"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button10"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="6"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button11"/>
             <Button
@@ -98,6 +111,7 @@
                     android:textColor="@color/white"
                     android:background="@color/orange"
                     android:text="-"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button12"/>
         </TableRow>
@@ -106,18 +120,21 @@
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="1"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button13"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="2"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button14"/>
             <Button
                     android:layout_weight="1"
                     android:background="@color/whiteback"
                     android:text="3"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button15"/>
             <Button
@@ -125,11 +142,13 @@
                     android:textColor="@color/white"
                     android:background="@color/orange"
                     android:text="+"
+                    android:textSize="18sp"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button16"/>
         </TableRow>
     </TableLayout>
     <LinearLayout
+            android:layout_weight="0"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -137,17 +156,20 @@
 
                 android:background="@color/whiteback"
                 android:text="0"
+                android:textSize="18sp"
                 android:layout_width="60pt"
                 android:layout_height="30pt" android:id="@+id/button19" android:layout_weight="2"/>
         <Button
                 android:background="@color/whiteback"
                 android:text="."
+                android:textSize="18sp"
                 android:layout_width="30pt"
                 android:layout_height="30pt" android:id="@+id/button18" android:layout_weight="1"/>
         <Button
                 android:textColor="@color/white"
                 android:background="@color/orange"
                 android:text="="
+                android:textSize="18sp"
                 android:layout_width="30pt"
                 android:layout_height="30pt" android:id="@+id/button17" android:layout_weight="1"/>
     </LinearLayout>
