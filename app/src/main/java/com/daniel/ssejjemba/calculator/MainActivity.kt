@@ -10,6 +10,8 @@ import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
+    val CENT:Int = 100
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -97,7 +99,7 @@ class MainActivity : AppCompatActivity() {
             "*" -> oldNumber.toDouble() * newNumber
             "-" -> oldNumber.toDouble() - newNumber
             "+" -> oldNumber.toDouble() + newNumber
-            "%" -> oldNumber.toDouble() % newNumber
+            "%" -> newNumber / CENT
             "/" -> oldNumber.toDouble() / newNumber
             else -> 0.0
         }}catch (ex:Exception){
